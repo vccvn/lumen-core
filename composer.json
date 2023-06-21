@@ -19,14 +19,8 @@
         ]
     },
     "require": {
-        "ext-curl": "*",
-        "ext-mbstring": "*",
-        "ext-zlib": "*",
         "guzzlehttp/guzzle": "7.x",
-        "james-heinrich/getid3": "2.0.x-dev",
-        "laravel/lumen-framework": "^10.0",
-        "myclabs/php-enum": "^1.8",
-        "paquettg/string-encode": "~1.0.0"
+        "laravel/lumen-framework": "^10.0"
     },
     "config": {
         "allow-plugins": {
