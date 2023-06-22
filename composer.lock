@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dd6b612412f94fce094efe6d2aa06d16",
+    "content-hash": "a1a5781015156d299dba73c81c813c18",
     "packages": [
         {
             "name": "brick/math",
@@ -1450,12 +1450,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/database.git",
-                "reference": "9dc8fd27a563c58a3bcf68eed2c177d069544795"
+                "reference": "31fb1aa35dfedc2799ebf8073e23ce6eddaea7ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/database/zipball/9dc8fd27a563c58a3bcf68eed2c177d069544795",
-                "reference": "9dc8fd27a563c58a3bcf68eed2c177d069544795",
+                "url": "https://api.github.com/repos/illuminate/database/zipball/31fb1aa35dfedc2799ebf8073e23ce6eddaea7ca",
+                "reference": "31fb1aa35dfedc2799ebf8073e23ce6eddaea7ca",
                 "shasum": ""
             },
             "require": {
@@ -1511,7 +1511,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2023-06-18T18:46:04+00:00"
+            "time": "2023-06-21T22:57:51+00:00"
         },
         {
             "name": "illuminate/encryption",
@@ -1737,12 +1737,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/http.git",
-                "reference": "c56093855ae3e43ace38f114d0f02e09c97cd131"
+                "reference": "cf8b2864ad009f09b23e0bebf61e4149f8502f10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/http/zipball/c56093855ae3e43ace38f114d0f02e09c97cd131",
-                "reference": "c56093855ae3e43ace38f114d0f02e09c97cd131",
+                "url": "https://api.github.com/repos/illuminate/http/zipball/cf8b2864ad009f09b23e0bebf61e4149f8502f10",
+                "reference": "cf8b2864ad009f09b23e0bebf61e4149f8502f10",
                 "shasum": ""
             },
             "require": {
@@ -1789,7 +1789,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2023-06-18T09:18:14+00:00"
+            "time": "2023-06-22T01:05:29+00:00"
         },
         {
             "name": "illuminate/log",
@@ -2114,12 +2114,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
-                "reference": "fa51af611d62db7ffc21be117c812bdf4af331cf"
+                "reference": "f2c640f80ca5d0d00a9786fb759fb0f10f813953"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/support/zipball/fa51af611d62db7ffc21be117c812bdf4af331cf",
-                "reference": "fa51af611d62db7ffc21be117c812bdf4af331cf",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/f2c640f80ca5d0d00a9786fb759fb0f10f813953",
+                "reference": "f2c640f80ca5d0d00a9786fb759fb0f10f813953",
                 "shasum": ""
             },
             "require": {
@@ -2177,7 +2177,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2023-06-18T09:18:53+00:00"
+            "time": "2023-06-22T01:05:58+00:00"
         },
         {
             "name": "illuminate/testing",
@@ -2244,12 +2244,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/translation.git",
-                "reference": "5a1b5fcf531e2f8f4814ea4d525ab7fa1dc25f8f"
+                "reference": "46bc8822a9033e19151f8ee2c052f2f450c0da97"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/translation/zipball/5a1b5fcf531e2f8f4814ea4d525ab7fa1dc25f8f",
-                "reference": "5a1b5fcf531e2f8f4814ea4d525ab7fa1dc25f8f",
+                "url": "https://api.github.com/repos/illuminate/translation/zipball/46bc8822a9033e19151f8ee2c052f2f450c0da97",
+                "reference": "46bc8822a9033e19151f8ee2c052f2f450c0da97",
                 "shasum": ""
             },
             "require": {
@@ -2287,7 +2287,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2023-06-18T19:19:02+00:00"
+            "time": "2023-06-21T23:14:57+00:00"
         },
         {
             "name": "illuminate/validation",
@@ -2295,12 +2295,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/validation.git",
-                "reference": "b1e5d71654c09b0faf5aeee18440f70b8c8c4464"
+                "reference": "1c369e91a2c31cb4ad50b95655a16671c11e01ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/validation/zipball/b1e5d71654c09b0faf5aeee18440f70b8c8c4464",
-                "reference": "b1e5d71654c09b0faf5aeee18440f70b8c8c4464",
+                "url": "https://api.github.com/repos/illuminate/validation/zipball/1c369e91a2c31cb4ad50b95655a16671c11e01ad",
+                "reference": "1c369e91a2c31cb4ad50b95655a16671c11e01ad",
                 "shasum": ""
             },
             "require": {
@@ -2348,7 +2348,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2023-06-20T12:07:32+00:00"
+            "time": "2023-06-21T23:14:57+00:00"
         },
         {
             "name": "illuminate/view",
@@ -2403,91 +2403,6 @@
                 "source": "https://github.com/laravel/framework"
             },
             "time": "2023-05-30T14:18:22+00:00"
-        },
-        {
-            "name": "james-heinrich/getid3",
-            "version": "2.0.x-dev",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/JamesHeinrich/getID3.git",
-                "reference": "4e7aca96e7f4cf5ce6e08bca998334f567259965"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/JamesHeinrich/getID3/zipball/4e7aca96e7f4cf5ce6e08bca998334f567259965",
-                "reference": "4e7aca96e7f4cf5ce6e08bca998334f567259965",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.4.0"
-            },
-            "require-dev": {
-                "php-parallel-lint/php-parallel-lint": "^1.0",
-                "phpunit/phpunit": "^4.8 || ^5.0 || ^6.1 || ^7.5 || ^8.5"
-            },
-            "suggest": {
-                "ext-SimpleXML": "SimpleXML extension is required to analyze RIFF/WAV/BWF audio files (also requires `ext-libxml`).",
-                "ext-com_dotnet": "COM extension is required when loading files larger than 2GB on Windows.",
-                "ext-ctype": "ctype extension is required when loading files larger than 2GB on 32-bit PHP (also on 64-bit PHP on Windows) or executing `getid3_lib::CopyTagsToComments`.",
-                "ext-dba": "DBA extension is required to use the DBA database as a cache storage.",
-                "ext-exif": "EXIF extension is required for graphic modules.",
-                "ext-iconv": "iconv extension is required to work with different character sets (when `ext-mbstring` is not available).",
-                "ext-json": "JSON extension is required to analyze Apple Quicktime videos.",
-                "ext-libxml": "libxml extension is required to analyze RIFF/WAV/BWF audio files.",
-                "ext-mbstring": "mbstring extension is required to work with different character sets.",
-                "ext-mysql": "MySQL extension is required to use the MySQL database as a cache storage (deprecated in PHP 5.5, removed in PHP >= 7.0, use `ext-mysqli` instead).",
-                "ext-mysqli": "MySQLi extension is required to use the MySQL database as a cache storage.",
-                "ext-rar": "RAR extension is required for RAR archive module.",
-                "ext-sqlite3": "SQLite3 extension is required to use the SQLite3 database as a cache storage.",
-                "ext-xml": "XML extension is required for graphic modules to analyze the XML metadata.",
-                "ext-zlib": "Zlib extension is required for archive modules and compressed metadata."
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.0.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "JamesHeinrich\\GetID3\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-1.0-or-later",
-                "LGPL-3.0-only",
-                "MPL-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "James Heinrich",
-                    "email": "info@getid3.org",
-                    "homepage": "https://github.com/JamesHeinrich",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Craig Duncan",
-                    "email": "git@duncanc.co.uk",
-                    "homepage": "https://github.com/duncan3dc",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Extract and write useful information to/from popular multimedia file formats",
-            "homepage": "https://www.getid3.org/",
-            "keywords": [
-                "audio",
-                "codecs",
-                "id3",
-                "metadata",
-                "tags",
-                "video"
-            ],
-            "support": {
-                "issues": "https://github.com/JamesHeinrich/getID3/issues",
-                "source": "https://github.com/JamesHeinrich/getID3/tree/2.0"
-            },
-            "time": "2022-10-28T11:52:26+00:00"
         },
         {
             "name": "laravel/lumen-framework",
@@ -2752,69 +2667,6 @@
             "time": "2023-06-21T08:46:11+00:00"
         },
         {
-            "name": "myclabs/php-enum",
-            "version": "1.8.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/myclabs/php-enum.git",
-                "reference": "a867478eae49c9f59ece437ae7f9506bfaa27483"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/myclabs/php-enum/zipball/a867478eae49c9f59ece437ae7f9506bfaa27483",
-                "reference": "a867478eae49c9f59ece437ae7f9506bfaa27483",
-                "shasum": ""
-            },
-            "require": {
-                "ext-json": "*",
-                "php": "^7.3 || ^8.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^9.5",
-                "squizlabs/php_codesniffer": "1.*",
-                "vimeo/psalm": "^4.6.2"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "MyCLabs\\Enum\\": "src/"
-                },
-                "classmap": [
-                    "stubs/Stringable.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "PHP Enum contributors",
-                    "homepage": "https://github.com/myclabs/php-enum/graphs/contributors"
-                }
-            ],
-            "description": "PHP Enum implementation",
-            "homepage": "http://github.com/myclabs/php-enum",
-            "keywords": [
-                "enum"
-            ],
-            "support": {
-                "issues": "https://github.com/myclabs/php-enum/issues",
-                "source": "https://github.com/myclabs/php-enum/tree/1.8.4"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/mnapoli",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/myclabs/php-enum",
-                    "type": "tidelift"
-                }
-            ],
-            "time": "2022-08-04T09:53:51+00:00"
-        },
-        {
             "name": "nesbot/carbon",
             "version": "dev-master",
             "source": {
@@ -3052,56 +2904,6 @@
                 }
             ],
             "time": "2023-02-08T01:06:31+00:00"
-        },
-        {
-            "name": "paquettg/string-encode",
-            "version": "1.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/paquettg/string-encoder.git",
-                "reference": "a8708e9fac9d5ddfc8fc2aac6004e2cd05d80fee"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/paquettg/string-encoder/zipball/a8708e9fac9d5ddfc8fc2aac6004e2cd05d80fee",
-                "reference": "a8708e9fac9d5ddfc8fc2aac6004e2cd05d80fee",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.1"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^7.5.1"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "stringEncode": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Gilles Paquette",
-                    "email": "paquettg@gmail.com",
-                    "homepage": "http://gillespaquette.ca"
-                }
-            ],
-            "description": "Facilitating the process of altering string encoding in PHP.",
-            "homepage": "https://github.com/paquettg/string-encoder",
-            "keywords": [
-                "charset",
-                "encoding",
-                "string"
-            ],
-            "support": {
-                "issues": "https://github.com/paquettg/string-encoder/issues",
-                "source": "https://github.com/paquettg/string-encoder/tree/1.0.1"
-            },
-            "time": "2018-12-21T02:25:09+00:00"
         },
         {
             "name": "phpoption/phpoption",
@@ -5871,16 +5673,10 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "james-heinrich/getid3": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": {
-        "ext-curl": "*",
-        "ext-mbstring": "*",
-        "ext-zlib": "*"
-    },
+    "platform": [],
     "platform-dev": [],
     "plugin-api-version": "2.3.0"
 }

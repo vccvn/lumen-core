@@ -19,7 +19,7 @@
         ]
     },
     "require": {
-        "guzzlehttp/guzzle": "7.x",
+        "guzzlehttp/guzzle": "7.7.x-dev",
         "laravel/lumen-framework": "^10.0"
     },
     "config": {
