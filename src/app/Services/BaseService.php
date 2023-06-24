@@ -7,34 +7,20 @@ use Gomee\Services\Traits\BaseCrud;
 use Gomee\Services\Traits\CrudMethods;
 use Gomee\Services\Traits\Events;
 use Gomee\Services\Traits\FileMethods;
-use Gomee\Services\Traits\FormMethods;
 use Gomee\Services\Traits\MagicMethods;
 use Gomee\Services\Traits\ModuleData;
 use Gomee\Services\Traits\ModuleMethods;
 use Gomee\Services\Traits\PackageMethods;
 use Gomee\Services\Traits\ResponseMethods;
-use Gomee\Services\Traits\ViewMethods;
-use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
-use Illuminate\Foundation\Bus\DispatchesJobs;
-use Illuminate\Foundation\Validation\ValidatesRequests;
-
-
 
 
 class BaseService {
-    use AuthorizesRequests,
-        DispatchesJobs,
-        ValidatesRequests,
-        // module quan li lien quan toi modulw se dc ke thua tu controller nay
+    use 
         ModuleMethods,
         // tap hop cac thuoc tinh va ham lien quan den view
         ModuleData,
         // Package
         PackageMethods,
-        // tap hop cac thuoc tinh va ham lien quan den view
-        ViewMethods,
-        // tap hop cac thuoc tinh va ham lien quan den form
-        FormMethods,
         // tap hop cac thuoc tinh va ham lien quan den xu ly su kien nhu create, update, delete, restore
         CrudMethods,
         // tap hop cac thuoc tinh va ham lien quan den xu ly su kien nhu save , handle
@@ -65,7 +51,6 @@ class BaseService {
         $this->moduleInit();
         $this->crudInit();
         $this->fileInit();
-        $this->formInit();
         $this->activeMenu();
         $this->start();
     }

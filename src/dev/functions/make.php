@@ -63,41 +63,17 @@ if (!function_exists('make_controller')) {
      * make_controller
      * 
      */
-    function make_controller($args = [], $type = 'client', $name = null, $repo = null, $title = null, $module = null)
+    function make_controller($args = [], $name = null, $repo = null)
     {
         if (!$name) {
             echo "Tham so:\n\t\$type -- loai controller (web, admin, manager, api, custom)\n\t\$name -- Ten controller\n\t\$repo -- ten class Repository/Model\n\t\$title -- ten/tieu de\n\t\$module -- js module && route module\n\n";
             return null;
         }
-        $folders = [
-            'client' => 'Clients',
-            'cms' => 'CMS',
-            'admin' => 'Admin',
-            'account' => 'Accounts',
-            'manager' => 'Manager',
-            'branch' => 'Branch',
-            'cpanel' => 'CPanel',
-            'backend' => 'Backend',
-            'private' => 'Private',
-            'public' => 'Public',
-            'protected' => 'Protected',
-            'publish' => 'Publish',
-            'api' => 'Apis',
-            'web' => 'Web',
-            'frontend' => 'Frontend',
-            'merchant' => 'Merchant',
-            'custom' => null
-        ];
         $ac = explode('/', str_replace("\\", "/", $name));
         $name = array_pop($ac);
-        if (!array_key_exists($t = strtolower($type), $folders) || !$name) return null;
         $s = implode('/', array_map('ucfirst', $ac));
-        $folder = $folders[$t] . ($s ? '/' . $s : '');
-        $master = ucfirst($t);
-        $prectr = $master;
-        if ($master) {
-            $prectr = $folders[$t] . "\\" . $master;
-        }
+        $folder = ($s ? '/' . $s : '');
+        $prectr = '';
         $sub = null;
         if ($folder) {
             $folder = '/' . trim($folder, '/');
@@ -108,11 +84,9 @@ if (!function_exists('make_controller')) {
         $repo = ucfirst(array_pop($repos));
         $repf = count($repos) ? implode('/', array_map('ucfirst', $repos)) : ucfirst(Str::plural($repo));
 
-        if (!$title) $title = $name;
-        if (!$module) $module = strtolower(Str::plural($name));
 
-        $find = ['NAME', 'MASTER', 'SUB', 'REPO', 'REPF', 'MODULE', 'TITLE', 'PRECTRL', '#use controller;'];
-        $replace = [$name, $master, $sub, $repo, $repf, $module, $title, $prectr, $s ? '' : '# '];
+        $find = ['NAME', 'SUB', 'REPO', 'REPF', 'PRECTRL', '#use controller;'];
+        $replace = [$name, $sub, $repo, $repf, $prectr, $s ? '' : '# '];
 
         $template = file_get_contents(DEVPATH . '/templates/controller.php');
         $code = str_replace($find, $replace, $template);

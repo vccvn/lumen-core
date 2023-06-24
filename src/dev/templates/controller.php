@@ -9,12 +9,8 @@ use Gomee\Helpers\Arr;
 
 use App\Repositories\REPF\REPORepository;
 
-class NAMEController extends MASTERController
+class NAMEController extends Controller
 {
-    protected $module = 'MODULE';
-
-    protected $moduleName = 'TITLE';
-
     protected $flashMode = true;
 
     /**

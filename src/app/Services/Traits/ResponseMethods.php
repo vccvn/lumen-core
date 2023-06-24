@@ -83,22 +83,6 @@ trait ResponseMethods
     }
 
     /**
-     * tim kiếm ajax
-     * @param Request $request
-     * 
-     */
-    public function ajaxSearch(Request $request)
-    {
-        $data = [];
-        if(method_exists($this, 'beforeAjaxSearch')){
-            $d = new Arr($data);
-            $this->beforeAjaxSearch($request, $d);
-            $data = $d->all();
-        }
-        return $this->getAjaxData($request, $data);
-    }
-
-    /**
      * lấy Thông tin slug
      * @param Request $request
      * @return \Illuminate\Http\JsonResponse
@@ -138,24 +122,5 @@ trait ResponseMethods
     }
 
     
-    /**
-     * Thêm bản ghi mới
-     * @param Request $request
-     */
-    public function add(Request $request)
-    {
-        return $this->ajaxSave($request);
-    }
-
-
-    /**
-     * cập nhật thông tin bản ghi
-     * @param Request $request
-     * @param int $id
-     */
-    public function edit(Request $request, $id=null)
-    {
-        return $this->ajaxSave($request, $id);
-    }
 
 }

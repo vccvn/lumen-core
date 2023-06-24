@@ -7,13 +7,11 @@ use Gomee\Services\Traits\BaseCrud;
 use Gomee\Services\Traits\CrudMethods;
 use Gomee\Services\Traits\Events;
 use Gomee\Services\Traits\FileMethods;
-use Gomee\Services\Traits\FormMethods;
 use Gomee\Services\Traits\MagicMethods;
 use Gomee\Services\Traits\ModuleData;
 use Gomee\Services\Traits\ModuleMethods;
 use Gomee\Services\Traits\PackageMethods;
 use Gomee\Services\Traits\ResponseMethods;
-use Gomee\Services\Traits\ViewMethods;
 use Laravel\Lumen\Routing\Controller as BaseController;
 
 
@@ -28,10 +26,6 @@ class Controller extends BaseController
         ModuleData,
         // Package
         PackageMethods,
-        // tap hop cac thuoc tinh va ham lien quan den view
-        ViewMethods,
-        // tap hop cac thuoc tinh va ham lien quan den form
-        FormMethods,
         // tap hop cac thuoc tinh va ham lien quan den xu ly su kien nhu create, update, delete, restore
         CrudMethods,
         // tap hop cac thuoc tinh va ham lien quan den xu ly su kien nhu save , handle
