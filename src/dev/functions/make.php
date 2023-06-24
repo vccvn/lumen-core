@@ -66,7 +66,7 @@ if (!function_exists('make_controller')) {
     function make_controller($args = [], $name = null, $repo = null)
     {
         if (!$name) {
-            echo "Tham so:\n\t\$type -- loai controller (web, admin, manager, api, custom)\n\t\$name -- Ten controller\n\t\$repo -- ten class Repository/Model\n\t\$title -- ten/tieu de\n\t\$module -- js module && route module\n\n";
+            echo "Tham so:\n\t\$name -- Ten controller\n\t\$repo -- ten class Repository/Model\n\t\$title -- ten/tieu de\n\t\$module -- js module && route module\n\n";
             return null;
         }
         $ac = explode('/', str_replace("\\", "/", $name));
